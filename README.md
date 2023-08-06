@@ -1,6 +1,6 @@
 # European Football Database Data Analysis
 <p align="center">
-  <img src="https://github.com/awazbhujel/European-Football-Database-Analysis-Using-Python-SQL/blob/main/football.png"  title="hover text">
+  <img src="https://github.com/awazbhujel/European-Football-Database-Analysis-Using-Python-SQL/blob/main/Football.png"  title="hover text">
 </p>
 
 ## Table of Contents
@@ -47,6 +47,33 @@ The European Soccer Database used in this analysis is available on Kaggle:
 - numpy
 - matplotlib
 - sqlite3
+
+## Data Wrangling
+
+Data wrangling is a critical step in the data analysis process to prepare the dataset for exploration and analysis. During the data wrangling process of the European Soccer Database, the following actions were taken:
+
+### Handling Missing Players and Match Data
+
+Some players' and match data were found to be missing from their respective tables. To address this, strategies like imputation or exclusion were employed to handle missing data while considering potential biases that may arise from these missing values.
+
+### Resolving Duplicated and Incomplete Players' Names
+
+The players' names were identified to appear duplicated and incomplete in some instances, which could result in inaccurate matching and affect the overall analysis. Efforts were made to identify and resolve such naming issues to ensure accurate player-related insights.
+
+### Dealing with Missing Values in Player Attributes
+
+The "buildUpPlayDribbling" column in the Player Attributes table had a significant number of missing values. Due to the high percentage of missing data, this column was temporarily removed from the analysis until a suitable method for imputing the missing values was identified.
+
+### Converting Date Format
+
+All dates in the dataset were provided as strings. To facilitate temporal analysis, the date columns were converted to datetime format.
+
+### Addressing Data Integrity Challenges
+
+The dataset may contain duplicated records and other data integrity challenges. Efforts were made to identify and address these discrepancies to ensure the accuracy of statistical results.
+
+Efficient data wrangling ensured that the European Soccer Database was ready for in-depth exploration and analysis, enabling valuable insights into team and player performance and trends across different leagues.
+
 
 ## Limitations
 
