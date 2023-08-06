@@ -1,7 +1,5 @@
 # European Football Database Data Analysis
 
-![Soccer](soccer.jpg)
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
